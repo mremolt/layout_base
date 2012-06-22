@@ -6,3 +6,6 @@ gem 'jekyll'
 gem 'redcarpet'
 gem 'coffee-script'
 gem 'sass'
+
+gem 'sprite-factory'
+gem 'chunky_png'

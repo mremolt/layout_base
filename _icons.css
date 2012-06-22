@@ -1,0 +1,100 @@
+/* 
+        Creating a sprite from following images:
+        
+        ./img/icons/24h.png (128x128)
+        ./img/icons/bags.png (128x128)
+        ./img/icons/basket.png (128x128)
+        ./img/icons/cards.png (128x128)
+        ./img/icons/gift-box.png (128x128)
+        ./img/icons/manager.png (128x128)
+        ./img/icons/shop.png (128x128)
+        ./img/icons/shoulder-tag.png (128x128)
+        ./img/icons/shoulder.png (128x128)
+        ./img/icons/sign.png (128x128)
+        ./img/icons/tag-green-1.png (128x128)
+        ./img/icons/tag-green-2.png (128x128)
+        ./img/icons/tag-orange.png (128x128)
+        ./img/icons/trolley.png (128x128)
+        ./img/icons/truck.png (128x128)
+
+        Output files:
+          _icons.png
+          _icons.css
+
+        Output size:
+          1920x128 */
+img.24h
+  width: 128px
+  height: 128px
+  background: url(_icons.png) 0px 0px no-repeat
+
+img.bags
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -128px 0px no-repeat
+
+img.basket
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -256px 0px no-repeat
+
+img.cards
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -384px 0px no-repeat
+
+img.gift-box
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -512px 0px no-repeat
+
+img.manager
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -640px 0px no-repeat
+
+img.shop
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -768px 0px no-repeat
+
+img.shoulder-tag
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -896px 0px no-repeat
+
+img.shoulder
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1024px 0px no-repeat
+
+img.sign
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1152px 0px no-repeat
+
+img.tag-green-1
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1280px 0px no-repeat
+
+img.tag-green-2
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1408px 0px no-repeat
+
+img.tag-orange
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1536px 0px no-repeat
+
+img.trolley
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1664px 0px no-repeat
+
+img.truck
+  width: 128px
+  height: 128px
+  background: url(_icons.png) -1792px 0px no-repeat
+

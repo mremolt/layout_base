@@ -9,18 +9,14 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 
+#exclude: [".sass-cache", "Gemfile", "Gemfile.lock"]
+
+
 future:      true
 lsi:         false
 pygments:    false
 markdown:    redcarpet2
 permalink:   date
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
